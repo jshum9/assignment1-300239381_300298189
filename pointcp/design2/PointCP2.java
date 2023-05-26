@@ -9,6 +9,7 @@ package design2;
  * How polar coordinates are computed: 
  * Simply returned. 
  */
+
 public class PointCP2 {
     
 }

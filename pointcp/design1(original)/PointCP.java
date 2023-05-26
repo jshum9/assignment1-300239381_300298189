@@ -25,6 +25,7 @@
  * How polar coordinates are computed: 
  * Simply returned if polar is the storage format, otherwisecomputed. 
 */
+
 public class PointCP
 {
   //Instance variables ************************************************

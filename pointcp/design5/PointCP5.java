@@ -9,6 +9,7 @@ package design5;
  * How polar coordinates are computed: 
  * Depends on the concrete class used. 
  */
+
 public class PointCP5 {
     
 }

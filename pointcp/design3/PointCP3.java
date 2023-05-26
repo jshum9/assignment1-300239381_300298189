@@ -9,6 +9,7 @@ package design3;
  * How polar coordinates are computed: 
  * Computed on demand, but not stored. 
  */
+
 public class PointCP3 {
     
 }
