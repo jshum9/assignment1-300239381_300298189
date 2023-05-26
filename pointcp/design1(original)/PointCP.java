@@ -12,6 +12,19 @@
  * @author Dr Timothy C. Lethbridge
  * @version July 2000
  */
+
+/**
+ * PERSONAL NOTES: 
+ * Design 1: Store on type of coordinates using a single pair of 
+ * instance variables, with a flag indicating which type is stored.
+ * 
+ * How Cartesian coordinates are computed: 
+ * Simply returned if Cartesian is the storage format, otherwise
+ * computed.
+ * 
+ * How polar coordinates are computed: 
+ * Simply returned if polar is the storage format, otherwisecomputed. 
+*/
 public class PointCP
 {
   //Instance variables ************************************************
