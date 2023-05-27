@@ -44,7 +44,7 @@ public class PointCP2 {
         if (typeCoord == 'P'){
             return xOrRho;
         } else{
-            return (Math.sqrt(Math.pow(xOrRho, b:2) + Math.pow(yOrTheta, b:2)));
+            return (Math.sqrt(Math.pow(xOrRho, 2) + Math.pow(yOrTheta, 2)));
         }
     }
 
