@@ -1,0 +1,1 @@
+To produce test data, go to TestData/ and run GenerateRandomCartesianPoints.py and GenerateRandomPolarPoints.py.
