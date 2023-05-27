@@ -55,4 +55,24 @@ public class PointCP2 {
             return Math.toDegrees(Math.atan2(yOrTheta, xOrRho));
         }
     }
+
+    public void convertStorageToPolar(){
+        if (typeCoord != 'P'){
+            double temp = getRho();
+            yOrTheta = getTheta();
+            xOrRho = temp;
+
+            typeCoord = 'P';
+        }
+    }
+
+    public void convertStorageToCartesian(){
+        if (typeCoord != 'C'){
+            double temp = getX();
+            yOrTheta = getY();
+            xOrRho = temp;
+
+            typeCoord = 'C';
+        }
+    }
 }
