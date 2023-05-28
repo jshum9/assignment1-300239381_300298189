@@ -1,7 +1,9 @@
 public class Employee {
+    
     /**
      * Creating variables displayed in memory diagram. 
      */
+
     private String name;
     private double hours;
     private double rate;
@@ -17,6 +19,7 @@ public class Employee {
     /**
      * Creating getters and setters for the variables in the class. 
      */
+
     public String getName(){
         return name;
     }
@@ -47,5 +50,20 @@ public class Employee {
 
     public void setAddress(Address[] info){
         this.addresses = info;
+    }
+
+    /**
+     * Create toString() method for class Address
+     */
+
+    public String toString(){
+        String employeeDetail = "Name: " + name + "\n" + "Hours: " + hours + "\n" +"Rate: " + rate + "\n";
+        for(int i = 0; i < addresses.length; i++){
+            Address address = addresses[i];
+            if (address != null){
+                employeeDetail += "Address " + (i + 1) + ": " + address + "\n";
+            }
+        }
+        return employeeDetail;
     }
 }

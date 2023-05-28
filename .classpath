@@ -3,5 +3,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry excluding="design1(original)/" kind="src" path="pointcp"/>
 	<classpathentry kind="src" path="pointcp/design1(original)"/>
+	<classpathentry kind="src" path="code_part2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
