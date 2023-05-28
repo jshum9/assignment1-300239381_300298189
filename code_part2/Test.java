@@ -6,7 +6,7 @@ public class Test {
         Address address1 = new Address("Queen", 48, "K1P1N2");
         Address address2 = new Address("King Edward", 800, "K1N6N5");
 
-        //Create an array of addresses with 6 slots as designated in the diagram
+        //Create an array of addresses with 6 memory slots as designated in the diagram
 
         Address[] address = new Address[6];
 
