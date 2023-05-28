@@ -61,7 +61,7 @@ public class Employee {
         for(int i = 0; i < addresses.length; i++){
             Address address = addresses[i];
             if (address != null){
-                employeeDetail += "\tAddress " + (i + 1) + ": " + address + "\n";
+                employeeDetail += "Address " + (i + 1) + ": \n\t" + address + "\n";
             }
         }
         return employeeDetail;
